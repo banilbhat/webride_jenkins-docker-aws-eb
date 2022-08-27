@@ -3,10 +3,10 @@
 # usage: ./deployme.sh staging sddffafaafaf
 # license: public domain
 
-application_name="WebRide"
-environment_name="Webride-env"
+application_name="jenkins-test"
+environment_name="Jenkinstest-env"
 
-EB_BUCKET=webride-bucket
+EB_BUCKET=clx-jenkins-bucket
 
 VERSION="v11"
 ZIP="code.$VERSION.zip"
